@@ -1,0 +1,154 @@
+.container_scholarship {
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    padding: 0 1.5rem;
+}
+
+
+.container_scholarship h2 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-size: 50px;
+    color: #6968aa;
+    border: 2px dashed #0181a0;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 375px;
+}
+
+.blog-post {
+    font-size: 10px;
+    width: 100%;
+    max-width: 70rem;
+    background-color: #dbf4ff21;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: .8rem;
+    margin: 10px;
+}
+
+.blog-post_img {
+    transform: translateX(-8rem);
+    position: relative;
+}
+
+.blog-post_img img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: .8rem;
+    display: block;
+}
+
+.blog-post_info {
+    padding: 10px;
+}
+
+
+.blog-post_date span {
+    font-size: 15px;
+    display: block;
+    color: #00000080;
+    font-weight: 600;
+    margin: .5rem 0;
+}
+
+.blog-post_date .scholarshipName {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.blog-post_title {
+    font-size: 20px;
+    color: #00000080;
+    text-transform: uppercase;
+}
+
+.blog-post_text {
+    margin-bottom: 3rem;
+    font-size: 15px;
+    color: #000000b3;
+}
+
+.blog-post_cta {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.blog-post_cta:hover a {
+    /* padding: 5px; */
+    border-radius: 2px;
+    background: black;
+    color: white;
+}
+
+@media screen and (max-width: 1068px) {
+    .blog-post {
+        max-width: 60rem;
+    }
+
+    .blog-post_img {
+        margin-top: 8%;
+        min-width: 30rem;
+        max-width: 30rem;
+    }
+
+    .container_scholarship h2 {
+        margin-top: 120px;
+        margin-left: 275px;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .blog-post {
+        max-width: 70rem;
+    }
+
+    .container_scholarship h2 {
+        margin-top: 20px;
+        margin-left: 142px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-post {
+        padding: 2.5rem;
+        flex-direction: column;
+    }
+
+    .blog-post_img {
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -1rem);
+    }
+
+    .container_scholarship {
+        margin-top: auto;
+    }
+}
+
+@media screen and (max-width: 823px) {
+    .container_scholarship h2 {
+        margin-top: 35px;
+        margin-left: 142px;
+    }
+}
